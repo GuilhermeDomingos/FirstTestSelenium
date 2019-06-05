@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96a04809-8ac2-439e-9b6d-96bf5440209b" name="Default Changelist" comment="" />
+    <list default="true" id="96a04809-8ac2-439e-9b6d-96bf5440209b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/calls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/informacoesUsuarioTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,16 +17,56 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="78" column="3" lean-forward="true" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
+            <state relative-caret-position="255">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/locators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/calls.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/varifyLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,6 +91,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/validateLogin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/varifyLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/calls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/locators.java" />
       </list>
     </option>
   </component>
@@ -55,10 +106,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="182" />
-    <option name="y" value="318" />
-    <option name="width" value="1123" />
-    <option name="height" value="582" />
+    <option name="x" value="833" />
+    <option name="y" value="27" />
+    <option name="width" value="757" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -66,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,6 +129,27 @@
               <item name="webDriver" type="b2602c69:ProjectViewProjectNode" />
               <item name="PrimeiroTeste" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webDriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrimeiroTeste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webDriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrimeiroTeste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webDriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrimeiroTeste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webDriver" type="b2602c69:ProjectViewProjectNode" />
@@ -103,12 +176,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,22 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.informacoesUsuarioTest.testAdicionarInformacaoUsuario">
-    <configuration name="informacoesUsuarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PrimeiroTeste" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.informacoesUsuarioTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.varifyLogin.verifyLoginTaskit">
     <configuration name="informacoesUsuarioTest.testAdicionarInformacaoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PrimeiroTeste" />
       <extension name="coverage">
@@ -154,10 +215,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="varifyLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PrimeiroTeste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.varifyLogin" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="varifyLogin.verifyLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PrimeiroTeste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.varifyLogin" />
+      <option name="METHOD_NAME" value="verifyLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="varifyLogin.verifyLoginTaskit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PrimeiroTeste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.varifyLogin" />
+      <option name="METHOD_NAME" value="verifyLoginTaskit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="varifyLogin.verifyValidLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PrimeiroTeste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.varifyLogin" />
+      <option name="METHOD_NAME" value="verifyValidLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.varifyLogin.verifyLoginTaskit" />
+        <item itemvalue="JUnit.varifyLogin" />
+        <item itemvalue="JUnit.varifyLogin.verifyLogin" />
+        <item itemvalue="JUnit.varifyLogin.verifyValidLogin" />
         <item itemvalue="JUnit.informacoesUsuarioTest.testAdicionarInformacaoUsuario" />
-        <item itemvalue="JUnit.informacoesUsuarioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,35 +302,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="informacoesUsuarioTest_testAdicionarInformacaoUsuario - 2019.04.22 at 22h 49m 19s.xml">
+    <history-entry file="informacoesUsuarioTest_testAdicionarInformacaoUsuario - 2019.06.01 at 17h 44m 31s.xml">
       <configuration name="informacoesUsuarioTest.testAdicionarInformacaoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="informacoesUsuarioTest_testAdicionarInformacaoUsuario - 2019.04.22 at 22h 50m 06s.xml">
+    <history-entry file="informacoesUsuarioTest_testAdicionarInformacaoUsuario - 2019.06.01 at 17h 47m 07s.xml">
       <configuration name="informacoesUsuarioTest.testAdicionarInformacaoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="informacoesUsuarioTest_testAdicionarInformacaoUsuario - 2019.04.22 at 22h 56m 16s.xml">
-      <configuration name="informacoesUsuarioTest.testAdicionarInformacaoUsuario" configurationId="JUnit" />
+    <history-entry file="varifyLogin_verifyValidLogin - 2019.06.05 at 01h 28m 04s.xml">
+      <configuration name="varifyLogin.verifyValidLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="informacoesUsuarioTest - 2019.04.22 at 22h 59m 07s.xml">
-      <configuration name="informacoesUsuarioTest" configurationId="JUnit" />
+    <history-entry file="varifyLogin_verifyValidLogin - 2019.06.05 at 01h 28m 50s.xml">
+      <configuration name="varifyLogin.verifyValidLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="informacoesUsuarioTest - 2019.04.22 at 23h 00m 03s.xml">
-      <configuration name="informacoesUsuarioTest" configurationId="JUnit" />
+    <history-entry file="varifyLogin_verifyLogin - 2019.06.05 at 01h 30m 22s.xml">
+      <configuration name="varifyLogin.verifyLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="informacoesUsuarioTest - 2019.05.31 at 16h 28m 50s.xml">
-      <configuration name="informacoesUsuarioTest" configurationId="JUnit" />
+    <history-entry file="varifyLogin_verifyLoginTaskit - 2019.06.05 at 01h 32m 42s.xml">
+      <configuration name="varifyLogin.verifyLoginTaskit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="informacoesUsuarioTest - 2019.05.31 at 16h 29m 14s.xml">
-      <configuration name="informacoesUsuarioTest" configurationId="JUnit" />
+    <history-entry file="varifyLogin_verifyLoginTaskit - 2019.06.05 at 01h 34m 19s.xml">
+      <configuration name="varifyLogin.verifyLoginTaskit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="informacoesUsuarioTest_testAdicionarInformacaoUsuario - 2019.05.31 at 16h 29m 23s.xml">
-      <configuration name="informacoesUsuarioTest.testAdicionarInformacaoUsuario" configurationId="JUnit" />
+    <history-entry file="varifyLogin_verifyLoginTaskit - 2019.06.05 at 01h 34m 57s.xml">
+      <configuration name="varifyLogin.verifyLoginTaskit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="informacoesUsuarioTest_testAdicionarInformacaoUsuario - 2019.06.01 at 14h 33m 57s.xml">
-      <configuration name="informacoesUsuarioTest.testAdicionarInformacaoUsuario" configurationId="JUnit" />
+    <history-entry file="varifyLogin - 2019.06.05 at 17h 55m 57s.xml">
+      <configuration name="varifyLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="informacoesUsuarioTest_testAdicionarInformacaoUsuario - 2019.06.01 at 15h 00m 31s.xml">
-      <configuration name="informacoesUsuarioTest.testAdicionarInformacaoUsuario" configurationId="JUnit" />
+    <history-entry file="varifyLogin_verifyLoginTaskit - 2019.06.05 at 17h 57m 10s.xml">
+      <configuration name="varifyLogin.verifyLoginTaskit" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -217,8 +344,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31002018" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.332885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -227,15 +355,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966374" weight="0.33512065" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966374" visible="true" weight="0.33512065" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.328877" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2841823" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32841823" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2841823" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5003362" side_tool="true" weight="0.7540107" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.10427807" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297587" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.27882037" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -244,35 +372,158 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32952252" />
     </layout>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/webDriver$varifyLogin_verifyLoginTaskit.ic" NAME="varifyLogin.verifyLoginTaskit Coverage Results" MODIFIED="1559709252583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/target/test-classes/tests/informacoesUsuarioTest.class" />
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/PrimeiroTeste.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/locators/locators.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.5/selenium-api-3.141.5.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="255">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/tests/informacoesUsuarioTest.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12-beta-3/junit-4.12-beta-3.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        <state relative-caret-position="156">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12-beta-3/junit-4.12-beta-3.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="78" column="3" lean-forward="true" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
+        <state relative-caret-position="138">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/varifyLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/calls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/locators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PrimeiroTeste</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
